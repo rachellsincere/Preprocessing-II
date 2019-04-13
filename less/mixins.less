@@ -5,3 +5,19 @@ display: flex;
 justify-content: space-evenly;
 align-items: center; 
 }
+
+.btn(@text-color, @bg-color) {
+    width: 70%;
+    color: @text-color;
+    background-color: @bg-color;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken(@bg-color, 5%)
+    }
+}
