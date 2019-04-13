@@ -174,13 +174,16 @@ img {
   display: flex;
 }
 .nav-sec h1 {
-  width: 50%;
-}
-.nav-sec nav {
-  width: 50%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 50%;
+}
+.nav-sec nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
 }
 .nav-sec nav a {
   text-decoration: none;
@@ -197,6 +200,10 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .header-text {
+  padding: 2em 0;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;
